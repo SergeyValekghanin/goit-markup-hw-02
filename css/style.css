@@ -1,0 +1,9 @@
+/* colors */
+:root {
+  --main-black: #212121;
+  --acent: #2196f3;
+}
+
+ff {
+  color: var(--acent);
+}
