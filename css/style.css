@@ -1,9 +1,116 @@
 /* colors */
 :root {
-  --main-black: #212121;
+  --logo-black: #000000;
+  --nav-black: #212121;
+  --black-main: #212121;
   --acent: #2196f3;
+  --grey: #757575;
+  --white: #ffffff;
+  --background-button: #f5f4fa;
 }
 
-ff {
+/* форматирование */
+
+.link {
+  /* убирание подчеркивания ссылок */
+  text-decoration: none;
+}
+.list {
+  /* убирание маркеров в списках */
+  list-style: none;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* шрифты для боди */
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* стиль шрифтов к нав в хедере */
+/* лого */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent);
+}
+.logo-acent {
+  color: var(--acent);
+}
+.logo-black-color {
+  color: var(--logo-black);
+}
+
+/* хедер нав */
+.header-nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--nav-black);
+}
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--acent);
+}
+
+/* хедер контакты */
+.header-contacts {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--acent);
+}
+
+/* кнопки ссылки */
+.button-links {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-main);
+  background-color: var(--background-button);
+  border-radius: 4px;
+}
+.button-links:hover,
+.button-links:focus {
+  background-color: var(--acent);
+  color: var(--white);
+}
+
+/* секция картинок */
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-main);
+}
+.discription {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+/* ховер ссылок (картинок)  */
+.hover:hover,
+.hover:focus {
   color: var(--acent);
 }
