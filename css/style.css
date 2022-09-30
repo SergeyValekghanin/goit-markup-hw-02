@@ -20,13 +20,15 @@
   --button-filter: #f5f4fa;
   --button-title: #212121;
   --button-title-hover: #ffffff;
-  --bkg-card-portfolio :#ffffff; 
---text-card-portfolio:  #757575;
-
+  --bkg-card-portfolio: #ffffff;
+  --text-card-portfolio: #757575;
+  --paragraf: #757575;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
   color: var(--text);
   background-color: var(--body-background);
 }
@@ -121,6 +123,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   border: none;
+  cursor: pointer;
   background: var(--button-hero);
   color: var(--button-hero-title);
 }
@@ -147,12 +150,19 @@ body {
   color: var(--title);
 }
 
+.h2-index {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title);
+}
+
 .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text);
+  color: var(--paragraf);
 }
 
 /* <!-- Наша команда --> */
@@ -173,19 +183,17 @@ body {
   color: var(--title);
 }
 .text-card {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text);
+  color: var(--paragraf);
 }
 
 /* ==================FOOTER================== */
 .footer {
   background-color: var(--footer-bkg);
 }
-
 
 .logo-footer {
   font-family: 'Raleway';
@@ -241,36 +249,31 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   border-radius: 4px;
   border: none;
   color: var(--button-title);
+  cursor: pointer;
 }
 
 .button-filter:hover,
 .button-filter:focus {
   color: var(--button-title-hover);
   background-color: var(--acent);
-  cursor: pointer
 }
 
-/* .card-portfolio {
-  background: var(--bkg-card-portfolio);
-border: 1px solid #EEEEEE;
-} */
-
 .title-card-portfolio {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--title);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title);
 }
 
 .text-card-portfolio {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--text-card-portfolio);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-card-portfolio);
 }
