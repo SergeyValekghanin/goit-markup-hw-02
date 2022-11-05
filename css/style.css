@@ -277,3 +277,21 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-card-portfolio);
 }
+
+/* ==== гіометрія ==== */
+.container {
+  width: 1200px;
+  outline: 2px solid pink;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
